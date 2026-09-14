@@ -1,0 +1,110 @@
+:root {
+  --bg: #121212;
+  --surface: #181818;
+  --surface-variant: #282828;
+  --lime: #39ff14;
+  --reject: #ff0033;
+  --muted: #b3b3b3;
+  --text: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.site-header {
+  border-bottom: 3px solid var(--lime);
+  padding: 1.25rem 1.5rem;
+}
+
+.brand {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--lime);
+}
+
+.brand-tag {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.page {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--surface-variant);
+  border-radius: 12px;
+  padding: 1.5rem 1.35rem 2rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.65rem;
+  line-height: 1.25;
+}
+
+h2 {
+  margin: 1.75rem 0 0.6rem;
+  font-size: 1.1rem;
+  color: var(--lime);
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 1.25rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--text);
+}
+
+li + li {
+  margin-top: 0.45rem;
+}
+
+.dont-list {
+  border-left: 3px solid var(--reject);
+  padding-left: 1rem;
+  margin-left: 0;
+  list-style: disc;
+}
+
+@media (min-width: 640px) {
+  .card {
+    padding: 2rem 2.25rem 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+  }
+}
