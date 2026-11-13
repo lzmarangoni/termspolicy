@@ -1,6 +1,6 @@
-# Política de privacidade — CatchTravel
+# Política de privacidade — Nina
 
-Site estático com a política de privacidade do CatchTravel, nas cores do app Android.
+Site estático com a política de privacidade do Nina, nas cores do app Android.
 
 ## Publicar no GitHub Pages (HTTPS para a Play Console)
 
